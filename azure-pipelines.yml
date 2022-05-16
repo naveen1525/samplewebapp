@@ -84,7 +84,7 @@ stages:
                 $(imagePullSecret)
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
-- stage: Deploy)prod
+- stage: Deployprod
   displayName: Deploy prod
   dependsOn: Build
 

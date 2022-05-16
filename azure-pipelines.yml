@@ -93,7 +93,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'naveen1525samplewebapp.prod'
+    environment: 'prodenv.prod'
     strategy:
       runOnce:
         deploy:
